@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: large;
+    font-family: monospace;
+    color: yellow;
+}
+
+body {
+    background-color:black ;
+}
+
+header.titles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    height: 200px;
+    background-color: yellow;
+}
+
+header h2 {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: dimgray;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+header h2:hover {
+    background-color: black;
+}
+
+.posts {
+    margin: auto;
+    padding: 10px;
+    width: 60%;
+
+}
+
+#theader {
+    padding: 10px;
+    margin: auto;
+    width: 250px;
+    font-size: 30px;
+}
+
+#pheader {
+    padding: 10px;
+    margin: auto;
+    width: 400px;
+    font-size: 30px;
+}
+
+.posts p {
+    padding: 15px;
+    background-color: grey;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
